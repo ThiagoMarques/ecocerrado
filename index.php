@@ -3,7 +3,7 @@
 <?php require_once 'includes/navbar.php'; ?>
 
 <body>
-    <section id="home" class="hero-container bg-retangulo bg-triangulo">
+    <section id="home" class="hero-container bg-imagem">
         <div class="container">
             <!-- Linha principal-->
             <div class="row">
@@ -13,7 +13,7 @@
                 </div>
                 <!-- Coluna direita-->
                 <div class="col-md-8">
-                    <p>Teste</p>
+                
                 </div>
             </div>
         </div>
