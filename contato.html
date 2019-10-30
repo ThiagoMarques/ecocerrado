@@ -12,92 +12,59 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/contato.css">
 		<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Satisfy&display=swap" rel="stylesheet">
 	</head>
 	<body>
+<!-- Navbar -->
 		<div class="row">
-
-<!-- coluna da esquerda -->
 			<div id="logo" class="col-md-4">
 				<img src="assets/imgs/logo.png" width="100" height="120" class="d-inline-block align-top" alt="EcoCerrado">
-				<h1>EcoCerrado</h1>
-				<p>A ONG EcoCerrado atua em escolas, faculdades e outros
-					espaços disseminando a educação ambiental através de
-					fotografias, exposições e palestras. O foco da ONG é o bioma
-					Cerrado, os membros promovem saídas de campo, realizam
-					trilhas ecológicas, acampamentos educativos, esportes de
-					aventura e resgate de animais silvestres.
-					A atual composição é de 35 membros, possui um museu itinerante
-					com insetário, fósseis de animais do cerrado, espécies
-					de serpentes do cerrado e um acervo fotográfico da sua fauna e
-					flora.</p>
-				<div class="botoes_logo">
-					<button type="button" class="btn btn-outline-success">QUEM SOMOS</button>
-					<button type="button" class="btn btn-outline-success">COMO AJUDAR</button>
-				</div>
 			</div>
-
-<!-- coluna da direita -->
 			<div id="menu_container" class="col-md-8">
 				<nav class="menu">
 					<ul class="nav nav-pills">
 						<li class="nav-item">
-							<a class="botoes nav-link" href="#">Início</a>
+							<a class="botoes nav-link" href="index.html">Início</a>
 						</li>
 						<li class="nav-item">
 							<a class="botoes nav-link" href="sobre.html">Sobre Nós</a>
 						</li>
 						<li class="nav-item">
-							<a class="botoes nav-link" href="contato.html">Contato</a>
+							<a class="botoes nav-link" href="#">Contato</a>
 						</li>
 					</ul>
 				</nav>	
 			</div>
 		</div>
 
-<!-- Início carrosel -->
-		<div class="home">	
-			<h1></h1>
-		</div>
-		<div id="demo" class="carousel slide" data-ride="carousel">
-  			<ul class="carousel-indicators">
-			    <li data-target="#demo" data-slide-to="0" class="active"></li>
-			    <li data-target="#demo" data-slide-to="1"></li>
-			    <li data-target="#demo" data-slide-to="2"></li>
-  			</ul>
-  			<div class="container carousel-inner">
-    			<div class="carousel-item active">
-					<img src="assets/imgs/foto1.JPG" alt="" width="1200" height="600">
-      				<div class="carousel-caption">
-        				<a href="">Museu Itinerante</a>
-        				<p><strong></strong></p>
-      				</div>   
-				</div>
-				<div class="carousel-item">
-					<img src="assets/imgs/foto2.JPG" alt="" width="1200" height="600">
-					<div class="carousel-caption">
-						<a href="">Exposições  e Palestras</a>
-						<p><strong></strong></p>
-					</div>   
-				</div>
-				<div class="carousel-item">
-					<img src="assets/imgs/foto3.JPG" alt="" width="1200" height="600">
-					<div class="carousel-caption">
-						<a href="">Educação Ambiental</a>
-						<p><strong></strong></p>
-					</div>   
-				</div>
-  			</div>
-  			<a class="carousel-control-prev" href="#demo" data-slide="prev">
-    			<span class="carousel-control-prev-icon"></span>
-  			</a>
-  			<a class="carousel-control-next" href="#demo" data-slide="next">
-    			<span class="carousel-control-next-icon"></span>
- 			</a>  
+<!-- titulo -->
+		<div class="titulo row">
+            <h2 class="col-md-12 text-center">Faça Parte!</h2>
+            </br>
+            <p class="col-md-12 text-center font-weight-bold">Quer ajudar a ONG EcoCerrado? Fale com a gente!</p>     
 		</div>
 
-<!-- Início do footer -->
+<!-- Início formulário -->
+        <div>
+            <form class="formulario">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Nome">
+                </div>
+                <div class="form-group">
+                    <input type="tel" class="form-control" placeholder="Telefone">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="E-mail">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="3" placeholder="Escreva sua mensagem"></textarea>
+                </div>
+                <button type="button" class="btn btn-success btn-block btn-lg">Enviar</button>
+            </form>
+        </div>
+
+<!-- inicio footer -->
 		<footer class="footer row">
 			<div class="item_footer col-md-3">
 				<h1>EcoCerrado</h1>

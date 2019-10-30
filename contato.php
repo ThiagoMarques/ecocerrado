@@ -11,7 +11,7 @@
         <div class="index-container">
             <div class="row align-items-center">
                 <div class="col-sm-6 form-contato">
-                <form action="mail/contatoemail.php" method="post">  
+                <form class="formulario" action="mail/contatoemail.php" method="post">  
                     <div class="form-group">
                         <div class="form-group">
                             <label for="txtnome">Nome</label>
@@ -25,11 +25,11 @@
                         <textarea class="form-control" name="txtMensagem" id="txtMensagem" rows="8" cols="40"></textarea>
                     </div>
                         <button type="submit" name="Enviar" class="btn btn-contato btn-primary">Enviar</button>
-                    </form>
-                </div>
+                </form>
             </div>
         </div>
     </div>
+</div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>

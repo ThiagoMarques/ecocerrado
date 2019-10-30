@@ -1,0 +1,88 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	max-width: 1200px;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+/* navbar */
+#menu_container{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: all;
+	max-height: 630px;
+}
+.menu{
+	padding-top: 20px;
+	margin-left: 100px;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+	align-items: flex-end;
+}
+.menu>ul>li{
+	margin-left: 2em;
+}
+
+.botoes{
+	font: Bold 16px/20px Microsoft New Tai Lue;
+	letter-spacing: 1px;
+	color: #039825;
+	opacity: 1;
+	text-transform: uppercase;
+}
+.botoes:hover{
+	color: #FFFFFF;
+	background: #039825 0% 0% no-repeat padding-box;
+	border-radius: 4px;
+	opacity: 1;
+}
+/* Título */
+.titulo{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.titulo>h2{
+    font: Bold 60px/83px Microsoft New Tai Lue;
+    letter-spacing: -2px;
+    color: #039825;
+    opacity: 1;
+}
+
+/* Início formulário */
+.formulario{
+    margin: 40px 0;
+    background-color: #94D2A3;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+/* Início estilo footer */
+.footer{
+	margin-top: 3em;
+	padding: 2em 0 2em 2em;
+	background-color: #039825;
+	background-size: 200px;
+}
+.item_footer{
+	padding: 2em;
+	font-family: Microsoft New Tai Lue;
+}
+.item_footer>h1{
+	font-size: 2em;
+	font-weight: bold;
+	color: #fff;
+	padding-bottom: 10px;
+}
+.item_footer>p{
+	color: #fff;
+}
+.item_footer>a>img{
+	margin: 10px;
+}
+.item_footer>img{
+	max-width: 150px;
+	max-height: 185px;
+}

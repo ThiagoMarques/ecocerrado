@@ -1,0 +1,121 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	max-width: 1200px;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+/* navbar */
+#menu_container{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: all;
+	max-height: 630px;
+}
+.menu{
+	padding-top: 20px;
+	margin-left: 100px;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+	align-items: flex-end;
+}
+.menu>ul>li{
+	margin-left: 2em;
+}
+
+.botoes{
+	font: Bold 16px/20px Microsoft New Tai Lue;
+	letter-spacing: 1px;
+	color: #039825;
+	opacity: 1;
+	text-transform: uppercase;
+}
+.botoes:hover{
+	color: #FFFFFF;
+	background: #039825 0% 0% no-repeat padding-box;
+	border-radius: 4px;
+	opacity: 1;
+}
+/* Título */
+.titulo{
+    justify-content: center;
+    margin-top: 50px;
+}
+.titulo>h2{
+    font: Bold 60px/83px Microsoft New Tai Lue;
+    letter-spacing: -2px;
+    color: #039825;
+    opacity: 1;
+}
+
+/* início da sessão */
+section{
+    padding: 50px 0;
+    background-image: url(/assets/imgs/back-sobre.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.card_box1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    max-width: 200px;
+    margin: 20px;
+}
+dt{
+    text-align: left;
+    font: Bold 22px/20px Microsoft New Tai Lue;
+    letter-spacing: -0.52px;
+    color: #039825;
+    opacity: 1;
+}
+dd{
+    text-align: left;
+    font: Regular 16px/30px Microsoft New Tai Lue;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1; 
+}
+.card_box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card_img{
+    margin: 10px;
+}
+.card_img>img{
+    max-width: 400px;
+}
+
+/* Início estilo footer */
+.footer{
+	margin-top: 3em;
+	padding: 2em 0 2em 2em;
+	background-color: #039825;
+	background-size: 200px;
+}
+.item_footer{
+	padding: 2em;
+	font-family: Microsoft New Tai Lue;
+}
+.item_footer>h1{
+	font-size: 2em;
+	font-weight: bold;
+	color: #fff;
+	padding-bottom: 10px;
+}
+.item_footer>p{
+	color: #fff;
+}
+.item_footer>a>img{
+	margin: 10px;
+}
+.item_footer>img{
+	max-width: 150px;
+	max-height: 185px;
+}
