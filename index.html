@@ -1,43 +1,9 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta name="description" content="Ong criada com o propósito de ">
-		<meta name="kkeywords" content="ecocerrado, ong, cerrado, ação social, escola, projeto educacional">
-		<meta name="author" content="EcoCerrado">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta charset="utf-8">
-		<title>Ecocerrado</title>
-		<link rel="shortcut icon" href="img/logo-ecocerrado.png">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-		<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Satisfy&display=swap" rel="stylesheet">
-	</head>
-	<body>
-		<div class="row">
+<?php require 'includes/header.php'; ?>
 
-<!-- coluna da esquerda -->
-			<div id="logo" class="col-md-4">
-				<img src="assets/imgs/logo.png" width="100" height="120" class="d-inline-block align-top" alt="EcoCerrado">
-				<h1>EcoCerrado</h1>
-				<p>A ONG EcoCerrado atua em escolas, faculdades e outros
-					espaços disseminando a educação ambiental através de
-					fotografias, exposições e palestras. O foco da ONG é o bioma
-					Cerrado, os membros promovem saídas de campo, realizam
-					trilhas ecológicas, acampamentos educativos, esportes de
-					aventura e resgate de animais silvestres.
-					A atual composição é de 35 membros, possui um museu itinerante
-					com insetário, fósseis de animais do cerrado, espécies
-					de serpentes do cerrado e um acervo fotográfico da sua fauna e
-					flora.</p>
-				<div class="botoes_logo">
-					<button type="button" class="btn btn-outline-success">QUEM SOMOS</button>
-					<button type="button" class="btn btn-outline-success">COMO AJUDAR</button>
-				</div>
-			</div>
+<body>
+	<div class="row">
 
+<<<<<<< HEAD
 <!-- coluna da direita -->
 			<div id="menu_container" class="col-md-8">
 				<nav class="menu">
@@ -53,41 +19,65 @@
 						</li>
 					</ul>
 				</nav>	
+=======
+		<!-- coluna da esquerda -->
+		<div id="logo" class="col-md-4">
+			<img src="assets/imgs/logo.png" width="100" height="120" class="d-inline-block align-top img-fluid"
+				alt="EcoCerrado">
+			<h1>EcoCerrado</h1>
+			<p>A ONG EcoCerrado atua em escolas, faculdades e outros
+				espaços disseminando a educação ambiental através de
+				fotografias, exposições e palestras. O foco da ONG é o bioma
+				Cerrado, os membros promovem saídas de campo, realizam
+				trilhas ecológicas, acampamentos educativos, esportes de
+				aventura e resgate de animais silvestres.
+				A atual composição é de 35 membros, possui um museu itinerante
+				com insetário, fósseis de animais do cerrado, espécies
+				de serpentes do cerrado e um acervo fotográfico da sua fauna e
+				flora.</p>
+			<div class="botoes_logo">
+				<button type="button" class="btn btn-outline-success">QUEM SOMOS</button>
+				<button type="button" class="btn btn-outline-success">COMO AJUDAR</button>
+>>>>>>> 5b368d94afed2438fbd692a904720326fff9f285
 			</div>
 		</div>
 
-<!-- Início carrosel -->
-		<div class="home">	
-			<h1></h1>
+		<!-- coluna da direita -->
+		<div id="menu_container hidden-xs" class="col-md-8">
+			<nav class="menu">
+				<ul class="nav nav-pills">
+					<li class="nav-item">
+						<a class="botoes nav-link" href="#home">Início</a>
+					</li>
+					<li class="nav-item">
+						<a class="botoes nav-link" href="#menu1">Sobre Nós</a>
+					</li>
+					<li class="nav-item">
+						<a class="botoes nav-link" href="contato.php">Contato</a>
+					</li>
+				</ul>
+			</nav>
 		</div>
-		<div id="demo" class="carousel slide" data-ride="carousel">
-  			<ul class="carousel-indicators">
-			    <li data-target="#demo" data-slide-to="0" class="active"></li>
-			    <li data-target="#demo" data-slide-to="1"></li>
-			    <li data-target="#demo" data-slide-to="2"></li>
-  			</ul>
-  			<div class="container carousel-inner">
-    			<div class="carousel-item active">
-					<img src="assets/imgs/foto1.JPG" alt="" width="1200" height="600">
-      				<div class="carousel-caption">
-        				<a href="">Museu Itinerante</a>
-        				<p><strong></strong></p>
-      				</div>   
+	</div>
+
+	<!-- Início carrosel -->
+	<div class="home">
+		<h1></h1>
+	</div>
+	<div id="demo" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<li data-target="#demo" data-slide-to="0" class="active"></li>
+			<li data-target="#demo" data-slide-to="1"></li>
+			<li data-target="#demo" data-slide-to="2"></li>
+		</ul>
+		<div class="container carousel-inner">
+			<div class="carousel-item active">
+				<img src="assets/imgs/foto1.JPG" alt="" width="1200" height="600">
+				<div class="carousel-caption">
+					<a href="">Museu Itinerante</a>
+					<p><strong></strong></p>
 				</div>
-				<div class="carousel-item">
-					<img src="assets/imgs/foto2.JPG" alt="" width="1200" height="600">
-					<div class="carousel-caption">
-						<a href="">Exposições  e Palestras</a>
-						<p><strong></strong></p>
-					</div>   
-				</div>
-				<div class="carousel-item">
-					<img src="assets/imgs/foto3.JPG" alt="" width="1200" height="600">
-					<div class="carousel-caption">
-						<a href="">Educação Ambiental</a>
-						<p><strong></strong></p>
-					</div>   
-				</div>
+<<<<<<< HEAD
   			</div>
   			<a class="carousel-control-prev" href="#demo" data-slide="prev">
     			<span class="carousel-control-prev-icon"></span>
@@ -103,18 +93,52 @@
 				<h1>EcoCerrado</h1>
 				<p>Telefone +55 (61) 99693-5651</p>
 				<p>E-mail </p>
+=======
+>>>>>>> 5b368d94afed2438fbd692a904720326fff9f285
 			</div>
-			<div class="item_footer col-md-3">
-				<h1>Sobre Nós</h1>
+			<div class="carousel-item">
+				<img src="assets/imgs/foto2.JPG" alt="" width="1200" height="600">
+				<div class="carousel-caption">
+					<a href="">Exposições e Palestras</a>
+					<p><strong></strong></p>
+				</div>
 			</div>
-			<div class="item_footer col-md-3">
-				<h1>Redes Sociais</h1>
-				<a href="https://instagram.com/eco_cerrado" target="blank"><img src="assets/imgs/instagram.png" alt="EcoCerrado"></a>
-				<a href="https://www.facebook.com/eco.cerrado.5" target="blank"><img src="assets/imgs/facebook.png" alt="EcoCerrado"></a>
+			<div class="carousel-item">
+				<img src="assets/imgs/foto3.JPG" alt="" width="1200" height="600">
+				<div class="carousel-caption">
+					<a href="">Educação Ambiental</a>
+					<p><strong></strong></p>
+				</div>
 			</div>
-			<div class="item_footer col-md-3">
-				<img src="assets/imgs/logo.png" width="241px" height="297" alt="EcoCerrado">
-			</div>
-		</footer>
-	</body>
+		</div>
+		<a class="carousel-control-prev" href="#demo" data-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		</a>
+		<a class="carousel-control-next" href="#demo" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		</a>
+	</div>
+	<!-- fim carrosel -->
+	<footer class="footer row">
+		<div class="item_footer col-md-3">
+			<h1>EcoCerrado</h1>
+			<p>Telefone +55 (61) 99693-5651</p>
+			<p>E-mail </p>
+		</div>
+		<div class="item_footer col-md-3">
+			<h1>Sobre Nós</h1>
+		</div>
+		<div class="item_footer col-md-3">
+			<h1>Redes Sociais</h1>
+			<a href="https://instagram.com/eco_cerrado" target="blank"><img src="assets/imgs/instagram.png"
+					alt="EcoCerrado"></a>
+			<a href="https://www.facebook.com/eco.cerrado.5" target="blank"><img src="assets/imgs/facebook.png"
+					alt="EcoCerrado"></a>
+		</div>
+		<div class="item_footer col-md-3">
+			<img src="assets/imgs/logo.png" width="241px" height="297" alt="EcoCerrado">
+		</div>
+	</footer>
+</body>
+
 </html>
