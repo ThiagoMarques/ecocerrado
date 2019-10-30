@@ -44,6 +44,11 @@ body{
 .menu>ul>li{
 	margin-left: 2em;
 }
+.mobile-container {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+  }
 
 .botoes{
 	font: Bold 16px/20px Microsoft New Tai Lue;
