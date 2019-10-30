@@ -5,7 +5,7 @@ body{
 	margin-right: auto;
 }
 
-/* coluna da esqueda */
+/* coluna da esquerda */
 #logo>h1{
 	font: Bold 60px/83px Microsoft New Tai Lue;
 	letter-spacing: -2px;
@@ -76,7 +76,9 @@ body{
 	margin-left: auto;
 }
 .home>h1{
-	background: #039825 0% 0% padding-box;
+	/* background: #039825 0% 0% padding-box; */
+	background: radial-gradient(circle, rgba(3,152,37,1) 13%, rgba(3,133,32,1) 100%);
+	border-radius: 10px;
 	height: 30px;
 	border: 1px solid #707070;
 	opacity: 1;
@@ -97,12 +99,14 @@ body{
 /* Início estilo footer */
 .footer{
 	margin-top: 3em;
-	padding: 2em 0 2em 2em;
-	background-color: #039825;
+	padding: 0 0 0 0;
+	/* background-color: #039825; */
+	background: radial-gradient(circle, rgba(3,152,37,1) 13%, rgba(3,133,32,1) 100%);
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
 	background-size: 300px;
 }
 .item_footer{
-	padding: 2em;
 	font-family: Microsoft New Tai Lue;
 }
 .item_footer>h1{
@@ -120,4 +124,15 @@ body{
 .item_footer>img{
 	max-width: 150px;
 	max-height: 185px;
+}
+.text-footer{
+	padding: 0px;
+	list-style: none; 
+	margin-top: 10px;
+}
+.text-footer>li>a{
+	color:#fff;
+}
+.label{
+	padding-left: 8px;
 }

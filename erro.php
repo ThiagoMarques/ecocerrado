@@ -1,14 +1,12 @@
 <?php require 'includes/header.php'; ?>
 
-<?php require_once 'includes/navbar.php'; ?>
-
 <!DOCTYPE html>
 
 <html lang="pt-br">
 
 <body>
-    <div class="blog-container">
-        <div class="card cardBlog">
+    <div class="container">
+        <div class="card>
             <div class="row align-items-center">
                 <div class="col">
                     <img class="d-block" src="assets/images/example1.png" alt="Imagem de exemplo - Computador">

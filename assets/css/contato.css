@@ -4,6 +4,24 @@ body{
 	margin-left:auto;
 	margin-right: auto;
 }
+/* Ajusta Tamanho Fonte Título */	
+
+@media (max-width:650px) {
+	.titulo>h2{
+	  font-size: 50px !important;
+	}
+	.titulo>p{
+		font-size: 15px !important;
+	}
+}
+@media (max-width:400px) {
+	.titulo>h2{
+	  font-size: 40px !important;
+	}
+	.titulo>p{
+		font-size: 13px !important;
+	}
+}
 
 /* navbar */
 #menu_container{
@@ -38,17 +56,31 @@ body{
 	border-radius: 4px;
 	opacity: 1;
 }
+
 /* Título */
 .titulo{
     display:flex;
     justify-content: center;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
+/* Mobile */
 .titulo>h2{
     font: Bold 60px/83px Microsoft New Tai Lue;
     letter-spacing: -2px;
     color: #039825;
     opacity: 1;
+}
+.container-mobile {
+	padding: 10px;
+	margin: 20px;
+}
+.mobile-nav {
+	font: Bold 16px/20px Microsoft New Tai Lue;
+	letter-spacing: 1px;
+	color: #039825;
+	opacity: 1;
+	padding-left: 25px;
+	text-transform: uppercase;
 }
 
 /* Início formulário */
@@ -58,13 +90,21 @@ body{
     padding: 50px;
     border-radius: 10px;
 }
+@media (max-width:650px) {
+	.formulario{
+		padding: 30px;
+	}
+}
 
 /* Início estilo footer */
 .footer{
 	margin-top: 3em;
-	padding: 2em 0 2em 2em;
-	background-color: #039825;
-	background-size: 200px;
+	padding: 0 0 0 0;
+	/* background-color: #039825; */
+	background: radial-gradient(circle, rgba(3,152,37,1) 13%, rgba(3,133,32,1) 100%);
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-size: 300px;
 }
 .item_footer{
 	padding: 2em;
@@ -85,4 +125,15 @@ body{
 .item_footer>img{
 	max-width: 150px;
 	max-height: 185px;
+}
+.text-footer{
+	padding: 0px;
+	list-style: none; 
+	margin-top: 10px;
+}
+.text-footer>li>a{
+	color:#fff;
+}
+.label{
+	padding-left: 8px;
 }
