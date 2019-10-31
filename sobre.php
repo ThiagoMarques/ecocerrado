@@ -68,54 +68,75 @@
 			<div class="card card-index" style="border: none">
 				<div class="row align-items-center">
 					<div class="col-sm-2">
-						<img class="d-block img-fluid" width="200" height="200" src="assets/imgs/sobre1.png"
-							alt="Sobre1">
+						<img class="d-block img-fluid" width="200" height="200" src="assets/imgs/Edinho e Eder.jpeg"
+							alt="">
 					</div>
 
 					<div class="col-sm-4">
 						<div class="card-informativo">
-							<h2 class="titulo-sobre">Cerrado nas escolas</h2>
-							<p class="art-div">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam est
-								libero, eget blandit neque ullamcorper vitae. Aliquam aliquet</p>
+							<h2 class="titulo-sobre">Edinho Rocha e Eder Silva</h2>
+							<p class="art-div">Idealizadores do projeto criado em 2008, o qual iniciou suas atividades em 2009. Edinho Rocha é o atual presidente e o Éder Silva detém a função de tesoureiro da ONG.</p>
 
 						</div>
 					</div>
 
 					<div class="col-sm-2">
-						<img class="d-block img-fluid" width="200" height="200" src="assets/imgs/sobre1.png"
-							alt="Sobre1">
+						<img class="d-block img-fluid" width="200" height="200" src="assets/imgs/João.jpeg"
+							alt="">
 					</div>
 					<div class="col-sm-4">
 						<div class="card-informativo">
-							<h2 class="titulo-sobre">Cerrado nas escolas</h2>
-							<p class="art-div">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam est
-								libero, eget blandit neque ullamcorper vitae. Aliquam aliquet</p>
+							<h2 class="titulo-sobre">João Rubens</h2>
+							<p class="art-div">Iniciou suas atividades a convite dos idealizadores em 2009, hoje é Vice-Presidente da ONG.</p>
 
 						</div>
 					</div>
 				</div>
 				<div class="row align-items-center">
 					<div class="col-sm-2">
-						<img class="d-block img-fluid" width="200" height="200" src="assets/imgs/sobre1.png"
-							alt="Sobre1">
+						<img class="d-block img-fluid" width="200" height="200" src="assets/imgs/Esau.jpeg"
+							alt="">
 					</div>
 					<div class="col-sm-4">
 						<div class="card-informativo">
-							<h2 class="titulo-sobre">Cerrado nas escolas</h2>
-							<p class="art-div">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam est
-								libero, eget blandit neque ullamcorper vitae. Aliquam aliquet</p>
+							<h2 class="titulo-sobre">Esau Carlos</h2>
+							<p class="art-div">Ingressou na ONG em 2011 exercendo a função de Diretor de Treinamentos.</p>
 
 						</div>
 					</div>
 					<div class="col-sm-2">
-						<img class="d-block img-fluid" width="200" height="200" src="assets/imgs/sobre1.png"
-							alt="Sobre1">
+						<img class="d-block img-fluid" width="200" height="200" src="assets/imgs/Lucas.jpeg"
+							alt="">
 					</div>
 					<div class="col-sm-4">
 						<div class="card-informativo">
-							<h2 class="titulo-sobre">Cerrado nas escolas</h2>
-							<p class="art-div">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam est
-								libero, eget blandit neque ullamcorper vitae. Aliquam aliquet</p>
+							<h2 class="titulo-sobre">Lucas Amorim</h2>
+							<p class="art-div">Entrou na equipe em 2012 e hoje atua como Coordenador de Expedições Ambientais nos projetos escolares.</p>
+
+						</div>
+					</div>
+
+				</div>
+				<div class="row align-items-center">
+					<div class="col-sm-2">
+						<img class="d-block img-fluid" width="200" height="200" src="assets/imgs/Zenival.jpeg"
+							alt="">
+					</div>
+					<div class="col-sm-4">
+						<div class="card-informativo">
+							<h2 class="titulo-sobre">Zenival Ramos</h2>
+							<p class="art-div">Começou no projeto em 2010. Hoje faz parte do Conselho Fiscal e é Diretor de Expedições Científicas.</p>
+
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<img class="d-block img-fluid" width="200" height="200" src="assets/imgs/Karina.jpeg"
+							alt="">
+					</div>
+					<div class="col-sm-4">
+						<div class="card-informativo">
+							<h2 class="titulo-sobre">Karina Marques</h2>
+							<p class="art-div">Atual Secretária e Coordenadora de projetos ambientais escolares.</p>
 
 						</div>
 					</div>

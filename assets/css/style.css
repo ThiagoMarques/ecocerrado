@@ -23,6 +23,13 @@ body{
 	display: flex;
 	justify-content: space-around;
 }
+.bot{
+	color: #039825;
+}
+.bot:hover{
+	background-color: #039825;
+	color: #fff;
+}
 
 /* coluna da direita */
 #menu_container{

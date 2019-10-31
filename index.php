@@ -20,8 +20,8 @@
 					de serpentes do cerrado e um acervo fotográfico da sua fauna e
 					flora.</p>
 				<div class="botoes_logo">
-					<button type="button" class="btn btn-outline-success">QUEM SOMOS</button>
-					<button type="button" class="btn btn-outline-success">COMO AJUDAR</button>
+					<a class="bot nav-link border border-success rounded" href="sobre.php">QUEM SOMOS</a>
+					<a class="bot nav-link border border-success rounded" href="contato.php">COMO AJUDAR</a>
 				</div>
 			</div>
 
@@ -54,26 +54,42 @@
 			<li data-target="#demo" data-slide-to="0" class="active"></li>
 			<li data-target="#demo" data-slide-to="1"></li>
 			<li data-target="#demo" data-slide-to="2"></li>
+			<li data-target="#demo" data-slide-to="3"></li>
+			<li data-target="#demo" data-slide-to="4"></li>
 		</ul>
 		<div class="container carousel-inner">
 			<div class="carousel-item active">
-				<img src="assets/imgs/foto1.JPG" class="img-fluid" alt="" width="1200" height="600">
+				<img src="assets/imgs/projeto eco educar.jpeg" class="img-fluid" alt="" width="1200" height="600">
 				<div class="carousel-caption">
-					<a href="">Museu Itinerante</a>
+					<a href="">Projeto Eco Educar</a>
+					<p><strong>Agende nossa visita na sua escola</strong></p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="assets/imgs/museu itinerante.jpeg" class="img-fluid" alt="" width="1200" height="600">
+				<div class="carousel-caption">
+					<a href="">Museu Eco Cerrado</a>
 					<p><strong></strong></p>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/imgs/foto2.JPG" class="img-fluid" alt="" width="1200" height="600">
+				<img src="assets/imgs/exposição.jpeg" class="img-fluid" alt="" width="1200" height="600">
 				<div class="carousel-caption">
-					<a href="">Exposições e Palestras</a>
+					<a href="">Exposição Digital da Fauna e Flora</a>
 					<p><strong></strong></p>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/imgs/foto3.JPG" class="img-fluid" alt="" width="1200" height="600">
+				<img src="assets/imgs/treinamentos.jpeg" class="img-fluid" alt="" width="1200" height="600">
 				<div class="carousel-caption">
-					<a href="">Educação Ambiental</a>
+					<a href="">Treinamentos e Capacitações</a>
+					<p><strong></strong></p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="assets/imgs/eventos.jpeg" class="img-fluid" alt="" width="1200" height="600">
+				<div class="carousel-caption">
+					<a href="">Eventos Ambientais</a>
 					<p><strong></strong></p>
 				</div>
 			</div>
