@@ -48,7 +48,7 @@ function smtpmailer($para, $de, $nomeDestinatario, $assunto, $corpo)
 }
  
 /* Passagem dos parametros: email do Destinatário, email do remetente, nome do remetente, assunto, mensagem do email.*/
-if (smtpmailer('thiagossmarques@gmail.com', 'ecocerrado@hotmail.com', $txtNome, $txtAssunto, $corpoMensagem)) {
+if (smtpmailer('ecocerrado@hotmail.com', 'ecocerrado@hotmail.com', $txtNome, $txtAssunto, $corpoMensagem)) {
     Header("location: ../index.php"); // Redireciona para uma página de Sucesso.
 }
 if (!empty($error)) {
